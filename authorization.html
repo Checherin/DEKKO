@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Авторизация - DEKKO</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="header">
+    <div class="header_container">
+        <h1 class="logo"><a href="index.html">DEKKO</a></h1>
+        <nav class="navigation">
+            <ul class="navigation_list">
+                <li class="navigation_item"> <a href="index.html"           class="navigation_link">       Главная        </a></li>
+                <li class="navigation_item"> <a href="about.html"           class="navigation_link">       О нас          </a></li>
+                <li class="navigation_item"> <a href="gallery.html"         class="navigation_link">       Галерея        </a></li>
+                <li class="navigation_item"> <a href="services.html"        class="navigation_link">       Услуги         </a></li>
+                <li class="navigation_item"> <a href="contacts.html"        class="navigation_link">       Контакты       </a></li>
+                <li class="navigation_item"> <a href="authorization.html"   class="navigation_link_use">   Вход           </a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<main>
+    <section class="form_section authorization_section">
+        <div class="form_container">
+            <h2 class="form_title">Войдите в аккаунт DEKKO</h2>
+            <p class="form_voda_for_form">
+                Войдите, чтобы начать пользоваться нашими услугами и получить доступ к управлению заказами.
+            </p>
+            <form class="main_form authorization_form">
+                <div class="form_polya">
+                    <label for="auth_email_username">Email или имя пользователя:</label>
+                    <input type="text" name="email_username" placeholder="Введите ваш email или имя пользователя" required>
+                </div>
+                <div class="form_polya">
+                    <label for="auth_password">Пароль:</label>
+                    <input type="password" name="password" placeholder="Введите пароль" required>
+                </div>
+                <button type="submit" class="form_button">Войти</button>
+            </form>
+            <p class="form_transport_text">Ещё нет аккаунта? <a href="registration.html">Зарегистрироваться!</a></p>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="footer_container">
+        <p class="footer_copy">&copy; 2025 DEKKO. Мебель на заказ.</p>
+        <div class="footer_contacts">
+            <p>Телефон: +7 (4236) 68-34-34</p>
+            <p>Email: dekko-mebel@gmail.com</p>
+            <p>Адрес: г. Находка, ул. Сидоренко, д. 1с2</p>
+        </div>
+        <div class="footer_social">
+            <a href="https://vk.com/" class="footer_social_link"><img src="photo/icon-vk.png" alt="VK"></a>
+            <a href="https://www.instagram.com/" class="footer_social_link"><img src="photo/icon-inst.png" alt="Instagram"></a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
